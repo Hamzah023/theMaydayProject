@@ -1,38 +1,57 @@
-.App {
+.table,
+.rectangle {
+  border: 2px solid rgb(34, 45, 139); /* Border color and style for both elements */
+  width: 80px; /* Width of the table */
+  height: 500px;
+  text-align: center;
+  position: relative;
+  top: 25px;
+  margin-left: -10px;
+  margin-right: auto;
+  float: left; /* Float the upper table to the left */
+  clear: both
+}
+
+.dispatch {
+    border: 2px solid rgb(34, 45, 139);
+    width: 650px;
+    height: 200px;
+    text-align: center;
+    position: relative; /* Add relative positioning */
+    top: -450px; /* Adjust the top position to move the element up */
+    margin-left: 300px;
+    margin-right: 430px;
+    line-height: 4.5;
+    clear: both;
+    text-wrap: wrap;
+    font-family: "Lucidia Console", "Courier New", monospace;
+  }
+  
+  .dispatch td:nth-child(1) {
+    white-space: nowrap;
+  }
+  
+  .dispatch td:nth-child(3) {
+    white-space: normal;
+    width: 300px;
+    line-height: 1.5;
+  }
+  
+  .dispatch td:nth-child(4) {
+    white-space: normal;
+    width: 300px;
+    line-height: 1.5;
+  }
+
+body {
+  background-color: #eeeeee; /* Set a solid background color */
+  /* or */
+  /*background-image: url('../myImage.jpg'); /* Set a background image */
+  background-size: cover; /* Ensure the background image covers the entire element */
+}
+
+h1 {
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
+  

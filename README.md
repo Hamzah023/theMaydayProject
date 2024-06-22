@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
@@ -68,3 +69,7 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+=======
+# theMaydayProject
+2024 University of Guelph student developer club hackathon winner for best AI hack. Optimizes 911 emergency calls left on hold by incorporating an AI assistant that transcribes user information to the operator while accounting for calls about the same situation.
+>>>>>>> e3823921d4def6a0ee2c1341e923df86166865d6
